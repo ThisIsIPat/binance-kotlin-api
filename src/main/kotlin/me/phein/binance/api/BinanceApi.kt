@@ -16,6 +16,8 @@ interface BinanceApi {
     interface BinanceSubAccountApi
     interface BinanceWebsocketApi
 
+    // TODO (important) https://github.com/binance/binance-spot-api-docs/blob/master/errors.md
+
     companion object {
         val endpoints = listOf(
             "api.binance.com",
