@@ -1,6 +1,6 @@
 package me.phein.binance.api.market
 
-interface AuthMarketBinanceApi : MarketBinanceApi {
+interface AuthBinanceMarketApi : BinanceMarketApi {
     /**
      * Get older market trades.
      *
