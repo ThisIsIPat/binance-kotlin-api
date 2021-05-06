@@ -24,6 +24,6 @@ interface BinanceApi {
             "api1.binance.com",
             "api2.binance.com",
             "api3.binance.com"
-        ).map { "https://$it/api/" }
+        ).map { "https://$it/api" }
     }
 }
